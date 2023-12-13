@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 /* reset */
+@font-face {
+    font-family: "Whitney";
+    src: url(/fonts/Whitney-BlackItalic.otf);
+}
 
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
@@ -75,6 +79,10 @@ nav .nav-links ul {
     justify-content:center;
     list-style-type: none;
     gap: 12px;
+}
+nav .nav-links ul li a{
+    color: white;
+    text-decoration: none;
 }
 
 
