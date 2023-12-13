@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 /* reset */
+/*
 @font-face {
     font-family: "Whitney";
-    src: url(/fonts/Whitney-BlackItalic.otf);
+    src: url(/fonts/secondi\ fonts/font-family);
 }
-
+body{
+    font-family: "Whitney";
+}
+*/
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
+.back_ground{
+    background-image: url(/img/jumbo.png);
+}
+
 .container {
     border: dashed 2px black;
     /* test */
@@ -22,7 +30,7 @@
 }
 
 .container-small {
-    background-color: #ee82ee;
+   /* background-color: #ee82ee;*/
     /* test */
 
     max-width: 800px;
@@ -46,7 +54,7 @@ header, section {
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
+    /*background-color: #add8e6;*/
     /* test */
     padding: 10px ;
 }
@@ -59,7 +67,7 @@ nav .container > * {
 }
 
 nav .container {
-    background-color: #daa520;
+    /*background-color: #daa520;*/
     /* test */
 
     display: flex;
@@ -104,13 +112,27 @@ nav .login button{
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
+   /* background-color: #00008b;*/
     /* test */
 }
 
 #hero .container-small {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
     height: 300px;
     /* test */
+}
+
+#hero .container-small button{
+    padding: 10px;
+    border-radius: 20px;
+    border: white;
+
+}
+#hero .container-small .black{
+    background-color: black;
+    color: white;
 }
 
 
