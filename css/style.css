@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 /* reset */
-/*
+
 @font-face {
     font-family: "Whitney";
-    src: url(/fonts/secondi\ fonts/font-family);
+    src: url(/fonts/primi\ fonts/);
 }
 body{
     font-family: "Whitney";
 }
-*/
+
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .back_ground{
@@ -101,7 +101,7 @@ nav .login {
     
 }
 
-nav .login button{
+/*nav .login*/ button{
     padding: 10px;
     border-radius: 20px;
     border: white;
@@ -121,20 +121,32 @@ nav .login button{
 #hero .container-small {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    align-content: center;    
     height: 300px;
     /* test */
 }
+#hero .container-small h1{
+font-size: 35px;}
+#hero .container-small h1 , #hero .container-small p{color: white;
+}
+
+#hero .container-small p{
+    margin-top: 40px;
+}
+
 
 #hero .container-small button{
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 40px;
     border: white;
 
 }
 #hero .container-small .black{
-    background-color: black;
+    margin-left: 12px;
+    background-color: #23272A;
     color: white;
+    padding: 16px;
 }
 
 
@@ -176,6 +188,11 @@ h2{
     width: 400px;
 }
 
+.bg-gray .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .big-content {
     /*background-color: #228b22;*/
