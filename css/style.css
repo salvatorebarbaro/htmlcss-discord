@@ -123,13 +123,16 @@ nav .login button{
 }
 
 .column-big {
-    background-color: #1e90ff;
+    background-color: #1e8fff;
     height: 400px;
     border: dashed 2px black;
     /* test */
 
     /* width: 60%; */
     flex-grow: 1;
+}
+h2{
+    font-size: 30px;
 }
 
 .column-small {
